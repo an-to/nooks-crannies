@@ -7,16 +7,21 @@ const renderGreeting = (greeting, key) => (
   <h1 key={key}>{greeting.text}</h1>
 )
 
+const renderGreetingId = (greeting, key) => (
+  <li key={key}>{greeting.id}</li>
+)
+
 const Greetings = ({greetings, dispatch}) => (
   <div>
-    <button onClick={() => dispatch(getGreetings())}>Show Greetings</button>
+    <ul>
+      {greetings.map(renderGreetingId)}
+    </ul>
     {greetings.map(renderGreeting)}
   </div>
 )
 
 const mapStateToProps = (state) => {
-return {greetings: state.greetings}
-
+  return {greetings: state.greetings}
 }
 
 export default connect(mapStateToProps)(Greetings)
