@@ -29,7 +29,7 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 5,
-          title: 'Lolita',
+          title: 'Speak, Memory',
           author_id: 'Vladimir Nabokov',
           genre: 'Contemporary'
         },

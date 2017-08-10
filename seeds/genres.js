@@ -5,27 +5,27 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex('table_name').insert([{
           id: 1,
-          genre: ''
+          genre: 'Science Fiction'
         },
         {
           id: 2,
-          genre: ''
+          genre: 'Novel'
         },
         {
           id: 3,
-          genre: ''
+          genre: 'Novel'
         },
         {
           id: 4,
-          genre: ''
+          genre: 'Children'
         },
         {
           id: 5,
-          genre: ''
+          genre: 'Contemporary'
         },
         {
           id: 6,
-          genre: ''
+          genre: 'Satire'
         }
       ]);
     });
