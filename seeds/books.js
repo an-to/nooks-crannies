@@ -6,38 +6,38 @@ exports.seed = function(knex, Promise) {
       return knex('table_name').insert([{
           id: 1,
           title: 'Solaris',
-          author: 'Stanislaw Lem',
-          genre: ''
+          author_id: 'Stanislaw Lem',
+          genre: 'Science Fiction'
         },
         {
           id: 2,
-          title: 'Open City',
-          author: 'Teju Cole',
-          genre: ''
+          title: 'Every Day is for the Thief',
+          author_id: 'Teju Cole',
+          genre: 'Novel'
         },
         {
           id: 3,
           title: 'Ru',
-          author: 'Kim Thuy',
-          genre: ''
+          author_id: 'Kim Thuy',
+          genre: 'Novel'
         },
         {
           id: 4,
           title: 'Little Women',
-          author: 'Louisa May Alcott',
-          genre: ''
+          author_id: 'Louisa May Alcott',
+          genre: 'Children'
         },
         {
           id: 5,
           title: 'Lolita',
-          author: 'Vladimir Nabokov',
-          genre: ''
+          author_id: 'Vladimir Nabokov',
+          genre: 'Contemporary'
         },
         {
           id: 6,
           title: 'The Master and the Margarita',
-          author: 'Mikhail Bulgakov',
-          genre: ''
+          author_id: 'Mikhail Bulgakov',
+          genre: 'Satire'
         }
       ]);
     });
