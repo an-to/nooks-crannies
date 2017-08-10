@@ -14,10 +14,12 @@ export const receiveBooks = (books) => {
 export function getBooks() {
   return (dispatch) => {
     request
-      .get('/api/v1/books')
+      .get('/api/books')
       .end((err, res) => {
-        if (err) throw err
-
+        if (err) {
+          console.error(err.message)
+          return
+        }
         let books = res.body
         dispatch(receiveBooks(books))
       })
