@@ -1,9 +1,9 @@
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex('authors').del()
     .then(function() {
       // Inserts seed entries
-      return knex('table_name').insert([{
+      return knex('authors').insert([{
           id: 1,
           first_name: 'Stanislaw',
           last_name: 'Lem'
@@ -15,8 +15,8 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 3,
-          first_name: 'Kim',
-          last_name: 'Thuy'
+          first_name: 'E L',
+          last_name: 'James'
         },
         {
           id: 4,

@@ -1,9 +1,9 @@
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex('genres').del()
     .then(function() {
       // Inserts seed entries
-      return knex('table_name').insert([{
+      return knex('genres').insert([{
           id: 1,
           genre: 'Science Fiction'
         },
@@ -13,7 +13,7 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 3,
-          genre: 'Novel'
+          genre: 'Provocative Romance'
         },
         {
           id: 4,
