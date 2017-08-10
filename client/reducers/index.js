@@ -1,7 +1,9 @@
 import {combineReducers} from 'redux'
 
-import greetings from './greetings' 
+import books from './books' 
+import waiting from './waiting'
 
 export default combineReducers({
-  greetings
+  books,
+  waiting
 })

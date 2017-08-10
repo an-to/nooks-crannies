@@ -1,0 +1,2 @@
+export const RECEIVE_BOOKS = 'RECEIVE_BOOKS'
+export const CHANGE_WAITING = 'CHANGE_WAITING'
