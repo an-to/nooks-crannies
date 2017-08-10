@@ -4,8 +4,10 @@ import {
 
 import books from './books'
 import waiting from './waiting'
+import searchResult from './searchResult'
 
 export default combineReducers({
   books,
-  waiting
+  waiting,
+  searchResult
 })
