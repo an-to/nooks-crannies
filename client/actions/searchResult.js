@@ -8,8 +8,8 @@ export const doSearch = (books, keywords, dispatch) => {
 console.log(book);
     let isFound = keywords.map((keyword) => {
         return (book.title.includes(keyword) ||
-          book.author.first_name.includes(keyword) ||
-          book.author.last_name.includes(keyword) ||
+          book.first_name.includes(keyword) ||
+          book.last_name.includes(keyword) ||
           book.genre.includes(keyword))
       })
       .reduce((isFound, searches) => {

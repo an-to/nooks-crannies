@@ -3,10 +3,14 @@ import {
 } from './index'
 const initialState = [
   {
-    author: 'H G Wells',
-    title: 'War of the Worlds',
-    genre: 'Science-Fiction'
-  }
+      id: 2,
+      title: "Every Day is for the Thief",
+      author_id: 2,
+      genre_id: 2,
+      first_name: "Teju",
+      last_name: "Cole",
+      genre: "Novel"
+    }
 ]
 
 export default function (state = initialState, action) {
