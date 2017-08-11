@@ -4,6 +4,7 @@ body {
 }
 
 .app-container > .header {
+  padding: 0 20rem;
   background: #403042;
 }
 
@@ -12,21 +13,30 @@ body {
 }
 
 .header > .site-icon {
-  padding-left: 8rem;
   color: white;
 }
 
 
 .header > .title {
+  margin-right: 20rem;
   color: white; 
+  font-size: 2.5rem;
 }
 
 .header > .search {
-  align-self: center;
-  padding-right: 8rem;
 }
 
-.booklist {}
+.header > .search > #searchkeyword {
+  height: 2.5rem;
+  width: 48rem;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+
+.booklist {
+  padding: 2rem;
+  margin: 0 20rem;
+}
 
 .book>.title {
   font-size: 1.25rem;

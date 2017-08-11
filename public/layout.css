@@ -6,11 +6,12 @@
 .app-container > .header {
   grid-row: 1 / span 1;
   display: grid;
+  justify-content: start;
 }
 
 .header > .title, .header > .search, .site-icon {
   grid-row: 1 / span 1;
-  justify-self: center;
+  align-self: center;
 }
 
 .header > .site-icon {
