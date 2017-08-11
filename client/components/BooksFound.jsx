@@ -6,7 +6,6 @@ function BooksFound ({books}) {
 console.log(books);
   return (
     <div className='book'>
-      Search results:
       <ul>
       {
       books.map((book, k) =>

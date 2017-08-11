@@ -1,7 +1,6 @@
 import {
   RECEIVE_BOOKS
-
-} from './index'
+} from '../actions/index'
 const initialState = [{
     id: 1,
     title: "Solaris",

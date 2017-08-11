@@ -20,8 +20,8 @@ class App extends React.Component {
         <div className='app-container'>
           <h1>Pegasus Books</h1>
           <Search />
-          <Route exact path='/' component={BookList}/>
           <Route path='/' component={BooksFound}/>
+          <Route exact path='/' component={BookList}/>
         </div>
       </Router>
 
