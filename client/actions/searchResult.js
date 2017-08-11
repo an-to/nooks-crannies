@@ -5,6 +5,7 @@ import {
 
 export const doSearch = (books, keywords, dispatch) => {
   let searchResult = books.filter((book) => {
+console.log(book);
     let isFound = keywords.map((keyword) => {
         return (book.title.includes(keyword) ||
           book.author.first_name.includes(keyword) ||
@@ -12,9 +13,9 @@ export const doSearch = (books, keywords, dispatch) => {
           book.genre.includes(keyword))
       })
       .reduce((isFound, searches) => {
-        return isFound |= searches 
+        return isFound |= searches
       }, false)
-    
+
     return isFound && book
   })
 

@@ -8,7 +8,7 @@ function getKeywords() {
 }
 
 
-function Search({books, dispath }) {
+function Search({books, dispatch }) {
   return (
     <div className='search'>
       <input id='searchkeyword' type='text' name='keyword' />
