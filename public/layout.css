@@ -4,14 +4,16 @@
 }
 
 .app-container > .header {
-  background: #cdcdcd;
   grid-row: 1 / span 1;
   display: grid;
-  justify-content: space-between;
 }
 
-.header > .title, .header > .search {
+.header > .title, .header > .search, .site-icon {
   grid-row: 1 / span 1;
+  justify-self: center;
+}
+
+.header > .site-icon {
 }
 
 .booklist {

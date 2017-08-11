@@ -11,8 +11,13 @@ body {
   padding: 1rem;
 }
 
-.header > .title {
+.header > .site-icon {
   padding-left: 8rem;
+  color: white;
+}
+
+
+.header > .title {
   color: white; 
 }
 

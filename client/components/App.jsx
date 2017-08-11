@@ -17,7 +17,7 @@ class App extends React.Component {
       <Router>
         <div className='app-container'>
           <div className='header'>
-            <i class="fa fa-book" aria-hidden="true"></i>
+            <i className="fa fa-book fa-5x site-icon" aria-hidden="true"></i>
             <h1 className='title'>Pegasus Books</h1>
             <Search />
           </div>
