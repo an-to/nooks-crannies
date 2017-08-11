@@ -3,13 +3,13 @@ import {
 } from './index'
 const initialState = [
   {
-    author:"HG Wells",
-    title:"War of the worlds",
-    genre:"Sci-Fi"
+    author: 'H G Wells',
+    title: 'War of the Worlds',
+    genre: 'Science-Fiction'
   }
 ]
 
-export default function (state=initialState, action) {
+export default function (state = initialState, action) {
   switch (action.type) {
     case RECEIVE_BOOKS:
       return action.books

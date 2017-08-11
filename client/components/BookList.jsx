@@ -2,7 +2,7 @@ import React from 'react'
 import {connect} from 'react-redux'
 import Book from './Book'
 
-function Books ({books}) {
+function Books({books}) {
   return (
     <div className='booklist'>
       <p>Hello!!</p>
