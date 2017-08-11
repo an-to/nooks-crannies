@@ -3,7 +3,6 @@ import {connect} from 'react-redux'
 
 
 function BooksFound({books}) {
-  console.log(books);
   return (
     <div className='book'>
 
