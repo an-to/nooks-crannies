@@ -11,7 +11,7 @@ function getKeywords() {
 function Search({books, dispatch }) {
   return (
     <div className='search'>
-      <input id='searchkeyword' type='text' name='keyword' />
+      <input id='searchkeyword' type='text' placeholder='Search' name='keyword' />
       <button onClick={() => doSearch(books, getKeywords(), dispatch) } >Search</button>
     </div>
   )
