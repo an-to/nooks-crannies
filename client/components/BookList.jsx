@@ -5,7 +5,6 @@ import Book from './Book'
 function Books({books}) {
   return (
     <div className='booklist'>
-      <p>Hello!!</p>
       {books.map((book, k) => {
         return (<Book key={k} book={book} />)
       })}

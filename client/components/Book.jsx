@@ -6,9 +6,9 @@ export default function Book ({book}) {
 console.log(book);
   return (
     <div className='book'>
-      <p>title:{book.title}</p>
-      <p>author:{book.first_name} {book.last_name}</p>
-      <p>genre:{book.genre}</p>
+      <p className='title'>{book.title}</p>
+      <p className='author'><i>by</i> {book.first_name} {book.last_name}</p>
+      <p className='genre'>{book.genre}</p>
     </div>
   )
 }
