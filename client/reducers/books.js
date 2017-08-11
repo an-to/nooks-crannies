@@ -1,6 +1,6 @@
 import {
   RECEIVE_BOOKS
-} from './index'
+} from '../actions/index'
 const initialState = [
   {
       id: 2,
@@ -13,10 +13,10 @@ const initialState = [
     }
 ]
 
-export default function (state = initialState, action) {
+export default function (state = [], action) {
   switch (action.type) {
     case RECEIVE_BOOKS:
-      return action.books
+      return [...action.books]
     default:
       return state
   }
