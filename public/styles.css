@@ -18,17 +18,17 @@ body {
 
 
 .header > .title {
-  margin-right: 20rem;
   color: white; 
   font-size: 2.5rem;
 }
 
 .header > .search {
+  margin-left: auto;
 }
 
 .header > .search > #searchkeyword {
   height: 2.5rem;
-  width: 48rem;
+  width: 20rem;
   font-size: 2rem;
   border-radius: 5px;
 }

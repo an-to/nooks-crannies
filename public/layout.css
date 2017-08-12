@@ -5,16 +5,20 @@
 
 .app-container > .header {
   grid-row: 1 / span 1;
-  display: grid;
+  display: flex;
   justify-content: start;
 }
 
 .header > .title, .header > .search, .site-icon {
-  grid-row: 1 / span 1;
   align-self: center;
 }
 
+.header > .search {
+  margin-left: auto;
+}
+
 .header > .site-icon {
+
 }
 
 .booklist {
