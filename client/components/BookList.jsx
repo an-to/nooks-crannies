@@ -13,7 +13,6 @@ function Books({books}) {
 }
 
 function mapStateToProps (state) {
-console.log("Hello",state);
   return {
     books: state.books
   }

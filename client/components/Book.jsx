@@ -3,7 +3,6 @@ import {connect} from 'react-redux'
 
 
 export default function Book ({book}) {
-console.log(book);
   return (
     <div className='book'>
       <p className='title'>{book.title}</p>

@@ -5,7 +5,6 @@ import {
 } from './index'
 
 export const receiveBooks = (books) => {
-  console.log('getbooks result', books)
   return {
     type: RECEIVE_BOOKS,
     books
@@ -13,7 +12,6 @@ export const receiveBooks = (books) => {
 }
 
 export function getBooks() {
-  console.log('getbooks')
   return (dispatch) => {
     request
       .get('api/books')
@@ -22,7 +20,6 @@ export function getBooks() {
           console.error(err.message)
           return
         }
-        console.log('res', res)
         let books = res.body
         dispatch(receiveBooks(books))
       })

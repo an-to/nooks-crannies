@@ -5,7 +5,6 @@ import {
 
 export const doSearch = (books, keywords, dispatch) => {
   let searchResult = books.filter((book) => {
-console.log(book);
     let isFound = keywords.map((keyword) => {
         return (book.title.includes(keyword) ||
           book.first_name.includes(keyword) ||
