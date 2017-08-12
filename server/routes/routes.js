@@ -4,7 +4,6 @@ var router = express.Router()
 var booksDb = require('../db/books')
 
 router.get('/', (req, res) => {
-  console.log('api hit')
   let db = req.app.get('db')
   booksDb.getBooks(db)
     .then(books => {
