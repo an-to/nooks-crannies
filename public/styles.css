@@ -3,30 +3,30 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.app-container > .header {
+.app-container>.header {
   padding: 0 20rem;
   background: #403042;
 }
 
-.header > .title, .header > .search {
+.header>.title,
+.header>.search {
   padding: 1rem;
 }
 
-.header > .site-icon {
+.header>.site-icon {
   color: white;
 }
 
-
-.header > .title {
-  color: white; 
+.header>.title {
+  color: white;
   font-size: 2.5rem;
 }
 
-.header > .search {
+.header>.search {
   margin-left: auto;
 }
 
-.header > .search > #searchkeyword {
+.header>.search>#searchkeyword {
   height: 2.5rem;
   width: 20rem;
   font-size: 2rem;
