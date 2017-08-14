@@ -12,7 +12,7 @@ function Search({books, dispatch }) {
   return (
     <div className='search'>
       <input id='searchkeyword' type='text' placeholder='Search' name='keyword' />
-      <button onClick={() => doSearch(books, getKeywords(), dispatch) } ><i class="fa fa-search fa-3x" aria-hidden="true"></i></button>
+      <button onClick={() => doSearch(books, getKeywords(), dispatch) } ><i className="fa fa-search fa-3x" aria-hidden="true"></i></button>
     </div>
   )
 }
