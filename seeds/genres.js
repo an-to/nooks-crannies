@@ -21,7 +21,7 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 5,
-          genre: 'Contemporary'
+          genre: 'General'
         },
         {
           id: 6,

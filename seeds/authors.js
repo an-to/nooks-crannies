@@ -33,6 +33,34 @@ exports.seed = function(knex, Promise) {
           first_name: 'Mikhail',
           last_name: 'Bulgakov'
         }
+        {
+          id: ,
+          first_name: '',
+          last_name: ''
+        }
+        {
+          id: ,
+          first_name: '',
+          last_name: ''
+        }
+        {
+          id: ,
+          first_name: '',
+          last_name: ''
+        }{
+          id: ,
+          first_name: '',
+          last_name: ''
+        }{
+          id: ,
+          first_name: '',
+          last_name: ''
+        }
+        {
+          id: ,
+          first_name: '',
+          last_name: ''
+        }
       ]);
     });
 };
