@@ -14,6 +14,6 @@ I want to see results displayed visually
 * Colour values linked to genre?
 * Display book summary?
 * Mouseover book shows blurb?
-* SHopping Cart?
+* Shopping Cart?
 
 
