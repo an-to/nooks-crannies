@@ -9,7 +9,6 @@ import { getBooks } from '../actions/books'
 
 class App extends React.Component {
   componentDidMount() {
-    this.props.dispatch(getBooks())
   }
 
   render() {
