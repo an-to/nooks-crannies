@@ -32,32 +32,86 @@ exports.seed = function(knex, Promise) {
           id: 6,
           first_name: 'Mikhail',
           last_name: 'Bulgakov'
-        }
+        },
         {
-          id: ,
-          first_name: '',
-          last_name: ''
-        }
+          id: 7,
+          first_name: 'Oscar',
+          last_name: 'Wilde'
+        },
         {
-          id: ,
-          first_name: '',
-          last_name: ''
-        }
+          id: 8,
+          first_name: 'Kim',
+          last_name: 'Thúy'
+        },
         {
-          id: ,
-          first_name: '',
-          last_name: ''
-        }{
-          id: ,
-          first_name: '',
-          last_name: ''
-        }{
-          id: ,
-          first_name: '',
-          last_name: ''
-        }
+          id: 9,
+          first_name: 'Trevor',
+          last_name: 'Noah'
+        },
         {
-          id: ,
+          id: 10,
+          first_name: 'Suyin',
+          last_name: 'Han'
+        },
+        {
+          id: 11,
+          first_name: 'Azar',
+          last_name: 'Nafisi'
+        },
+        {
+          id: 12,
+          first_name: 'Chimamanda Ngonzi',
+          last_name: 'Adichie'
+        },
+        {
+          id: 13,
+          first_name: 'Lynley',
+          last_name: 'Dodd'
+        },
+        {
+          id: 14,
+          first_name: 'Dr',
+          last_name: 'Seuss'
+        },
+        {
+          id: 15,
+          first_name: 'George R. R.',
+          last_name: 'Martin'
+        },
+        {
+          id: 16,
+          first_name: 'Patricia',
+          last_name: 'Highsmith'
+        },
+        {
+          id: 17,
+          first_name: 'Agatha',
+          last_name: 'Christie'
+        },
+        {
+          id: 18,
+          first_name: 'Maureen',
+          last_name: 'Wheeler',
+          first_name: 'Tony',
+          last_name: 'Wheeler'
+        },
+        {
+          id: 19,
+          first_name: 'Kuan Yu',
+          last_name: 'Lee'
+        },
+        {
+          id: 20,
+          first_name: 'Jamie',
+          last_name: 'Oliver'
+        },
+        {
+          id: 21,
+          first_name: 'Plato',
+          last_name: ''
+        },
+        {
+          id: 22,
           first_name: '',
           last_name: ''
         }

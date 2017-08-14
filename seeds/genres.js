@@ -9,7 +9,7 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 2,
-          genre: 'Novel'
+          genre: 'General'
         },
         {
           id: 3,
@@ -21,11 +21,75 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 5,
-          genre: 'General'
+          genre: 'Memoir'
         },
         {
           id: 6,
-          genre: 'Satire'
+          genre: 'General', 'Satire'
+        },
+        {
+          id: 7,
+          genre: 'Plays', 'Violet'
+        },
+        {
+          id: 8,
+          genre: 'Poems', 'Vignettes'
+        },
+        {
+          id: 9,
+          genre: 'Memoir'
+        },
+        {
+          id: 10,
+          genre: 'Romance'
+        },
+        {
+          id: 11,
+          genre: 'Memoir'
+        },
+        {
+          id: 12,
+          genre: 'General'
+        },
+        {
+          id: 13,
+          genre: 'Childrens'
+        },
+        {
+          id: 14,
+          genre: 'Childrens'
+        },
+        {
+          id: 15,
+          genre: 'Fantasy'
+        },
+        {
+          id: 16,
+          genre: 'Crime', 'Thriller'
+        },
+        {
+          id: 17,
+          genre: 'Crime'
+        },
+        {
+          id: 18,
+          genre: 'Travel'
+        },
+        {
+          id: 19,
+          genre: 'World Affairs'
+        },
+        {
+          id: 20,
+          genre: 'Cooking'
+        },
+        {
+          id: 21,
+          genre: 'Philosophy'
+        },
+        {
+          id: 22,
+          genre: ''
         }
       ]);
     });
