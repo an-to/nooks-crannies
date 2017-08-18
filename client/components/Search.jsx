@@ -11,9 +11,9 @@ function getKeywords() {
 function Search({books, dispatch }) {
   return (
     <div className='search'>
-      <input id='searchkeyword' type='text' placeholder='Search' name='keyword' />
+      <input id='searchkeyword' type='text' placeholder='Find books by author, title and genre' name='keyword' />
       <button onClick={() => doSearch(books, getKeywords(), dispatch) } ><i className="fa fa-search fa-3x" aria-hidden="true"></i></button>
-    </div>
+  </div>
   )
 }
 

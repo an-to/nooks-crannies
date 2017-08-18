@@ -25,3 +25,18 @@ export function getBooks() {
       })
   }
 }
+
+export function singleBook() {
+  return (dispatch) => {
+    request
+      .get('api/books')
+      .end((err, res) => {
+        if (err) {
+          console.error(err.message)
+          return
+        }
+        let books = res.body
+        dispatch(receiveBooks(books))
+      })
+  }
+}

@@ -14,4 +14,18 @@ router.get('/', (req, res) => {
     })
 })
 
+router.get('/:id', (req, res) =>{
+  let db = req.app.get('db')
+  booksDb.singleBook(req.params.id, db)
+    .then(books => {
+      res.sendstatus(204)
+    })
+    .catch((err) => {
+      res.status(500).json(err.message)
+    })
+
+});
+
+
+
 module.exports = router
