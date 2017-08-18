@@ -131,10 +131,30 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 22,
-          title: '',
+          title: 'The Murder of Roger Ackroyd',
           author_id: 22,
           genre_id: 22
         },
+        {
+          id: 23,
+          title: 'Seven Dials Mystery',
+          author_id: 23,
+          genre_id: 23
+        },
+        {
+          id: 24,
+          title: 'Murder on the Orient Express',
+          author_id: 24,
+          genre_id: 24
+        }
       ]);
     });
 };
+
+
+// {
+//   id: ,
+//   title: '',
+//   author_id: ,
+//   genre_id:
+// }

@@ -25,15 +25,15 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 6,
-          genre: 'General', 'Satire'
+          genre: 'Satire'
         },
         {
           id: 7,
-          genre: 'Plays', 'Violet'
+          genre: 'Plays'
         },
         {
           id: 8,
-          genre: 'Poems', 'Vignettes'
+          genre: 'Poems'
         },
         {
           id: 9,
@@ -65,7 +65,7 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 16,
-          genre: 'Crime', 'Thriller'
+          genre: 'Crime'
         },
         {
           id: 17,
@@ -89,8 +89,21 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 22,
-          genre: ''
+          genre: 'Crime'
+        },
+        {
+          id: 23,
+          genre: 'Crime'
+        },
+        {
+          id: 24,
+          genre: 'Crime'
         }
       ]);
     });
 };
+
+// {
+//   id: ,
+//   genre: ''
+// }

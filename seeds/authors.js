@@ -50,8 +50,8 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 10,
-          first_name: 'Suyin',
-          last_name: 'Han'
+          last_name: 'Han',
+          first_name: 'Suyin'
         },
         {
           id: 11,
@@ -97,8 +97,8 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 19,
-          first_name: 'Kuan Yu',
-          last_name: 'Lee'
+          last_name: 'Lee',
+          first_name: 'Kuan Yu'
         },
         {
           id: 20,
@@ -112,9 +112,26 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 22,
-          first_name: '',
-          last_name: ''
+          first_name: 'Agatha',
+          last_name: 'Christie'
+        },
+        {
+          id: 23,
+          first_name: 'Agatha',
+          last_name: 'Christie'
+        },
+        {
+          id: 24,
+          first_name: 'Agatha',
+          last_name: 'Christie'
         }
       ]);
     });
 };
+
+
+// {
+//   id: ,
+//   first_name: '',
+//   last_name: ''
+// }
