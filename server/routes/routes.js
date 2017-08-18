@@ -18,8 +18,10 @@ router.get('/:id', (req, res) =>{
   let db = req.app.get('db')
   booksDb.singleBook(req.params.id, db)
     .then(books => {
-      res.sendstatus(204)
+      res.json(books)
+      res.sendStatus(204)
     })
+
     .catch((err) => {
       res.status(500).json(err.message)
     })

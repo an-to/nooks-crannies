@@ -5,7 +5,7 @@ const getBooks = (db) => {
     .select('*')
 }
 
-const singleBook = (db) => {
+const singleBook = (id, db) => {
   return db('books')
     .join('authors', 'authors.id', '=', 'books.author_id')
     .join('genres', 'genres.id', '=', 'books.genre_id')

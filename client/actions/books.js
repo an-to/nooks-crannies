@@ -26,10 +26,10 @@ export function getBooks() {
   }
 }
 
-export function singleBook() {
+export function singleBook(id) {
   return (dispatch) => {
     request
-      .get('api/books')
+      .get('api/books/' + id)
       .end((err, res) => {
         if (err) {
           console.error(err.message)
